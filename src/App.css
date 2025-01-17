@@ -1,0 +1,36 @@
+#root {
+  max-width: 2280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(130, 128, 223);
+  height: 100vh;
+  font-family: "poppins" , serif;
+}
+
+.card-img {  
+ 
+  margin-right: 300px;
+}
+
+.card{
+  background-color: #54A0FF ;
+  margin-top: 20px;
+ margin-right: 10px;
+ 
+
+
+  }
+
+.cfooter{
+  background-color: #637CE1 !important;
+ 
+  }
+
+
+
+
+
+
+
+
