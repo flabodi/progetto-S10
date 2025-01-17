@@ -1,8 +1,63 @@
-.card{
-  background-color: #54A0FF ;
+.card {
+  background-color: #54a0ff;
   margin-top: 20px;
- margin-right: 10px;
- 
+  margin-right: 10px;
+  height: 400px;
+  width: 300px;
+}
 
+/* styles.css */
+.clear-sky {
+  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+  color: #776ec5;
+}
 
-  }
+.rain {
+  background: linear-gradient(to bottom, #4a4e69, #9a8c98);
+  color: #fff;
+}
+
+.clouds {
+  background: linear-gradient(to bottom, #b0c4de, #d3d3d3);
+  color: #000;
+}
+
+.snow {
+  background: linear-gradient(to bottom, #f0f8ff, #e0ffff);
+  color: #000;
+}
+
+.default-weather {
+  background: linear-gradient(to bottom, #ececec, #cccccc);
+  color: #d03434;
+}
+
+/* Poche nuvole */
+.few-clouds {
+  background: linear-gradient(
+    to bottom,
+    #87ceeb,
+    #b0c4de
+  ); /* Azzurro tenue e blu-grigio */
+  color: #000;
+}
+
+/* Nuvole sparse */
+.scattered-clouds {
+  background: linear-gradient(
+    to bottom,
+    #add8e6,
+    #778899
+  ); /* Azzurro chiaro e grigio */
+  color: #d60606;
+}
+
+/* Cielo molto nuvoloso */
+.overcast-clouds {
+  background: linear-gradient(
+    to bottom,
+    #a9a9a9,
+    #696969
+  ); /* Grigio chiaro e grigio scuro */
+  color: #fff;
+}
